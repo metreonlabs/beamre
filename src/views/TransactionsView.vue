@@ -29,7 +29,7 @@
                                 <tr>
                                     <td>
                                         <a target="_blank"
-                                            :href="`https://metreon-scan.netlify.app/${transaction.messageId}`">
+                                            :href="`https://scan.metreon.xyz/${transaction.messageId}`">
                                             <div class="route">
                                                 <div class="images">
                                                     <img :src="$chain(transaction.fromChainId).image" alt="">

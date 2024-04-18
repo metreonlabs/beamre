@@ -82,7 +82,7 @@ export async function addToMetaMask(currency) {
                     address: currency.address,
                     symbol: currency.symbol,
                     decimals: '18',
-                    image: 'https://metreon.netlify.app/images/' + currency.image + '.png',
+                    image: 'https://metreon.xyz/images/' + currency.image + '.png',
                 },
             },
         });
