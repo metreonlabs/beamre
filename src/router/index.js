@@ -1,7 +1,7 @@
-import { createRouter, createWebHistory } from 'vue-router'
-import BridgeView from '../views/BridgeView.vue'
-import FaucetView from '../views/FaucetView.vue'
-import TransactionsView from '../views/TransactionsView.vue'
+import { createRouter, createWebHistory } from 'vue-router';
+import BridgeView from '../views/BridgeView.vue';
+// import FaucetView from '../views/FaucetView.vue';
+import TransactionsView from '../views/TransactionsView.vue';
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -12,11 +12,11 @@ const router = createRouter({
       component: BridgeView,
       meta: { transition: 'slide-left' }
     },
-    {
-      path: '/faucet',
-      name: 'faucet',
-      component: FaucetView
-    },
+    // {
+    //   path: '/faucet',
+    //   name: 'faucet',
+    //   component: FaucetView
+    // },
     {
       path: '/transactions',
       name: 'transactions',
@@ -24,6 +24,6 @@ const router = createRouter({
       meta: { transition: 'slide-right' }
     }
   ]
-})
+});
 
-export default router
+export default router;

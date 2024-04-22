@@ -18,12 +18,12 @@
                             <div class="indicator"></div>
                         </div>
                     </RouterLink>
-                    <RouterLink to="/faucet">
+                    <!-- <RouterLink to="/faucet">
                         <div :class="$route.name == 'faucet' ? 'tab_item_active tab_item' : 'tab_item'">
                             <p>Faucet</p>
                             <div class="indicator"></div>
                         </div>
-                    </RouterLink>
+                    </RouterLink> -->
                 </div>
                 <div class="connections">
                     <div class="evm_chains">
