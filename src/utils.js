@@ -17,9 +17,9 @@ const Utils = {
     },
     tokenPools: function () {
         return {
-            56: "0xe7D634e1C16ef28cc6e9ff3201499fDC288A963E",
-            463: "0x77dC42C576a9f2BEA54cAf996333C87b62aac9F1",
-            137: "0xcA2bE183D28FA60CEEf867f1C79d8eF1E0F2188E"
+            56: "0x7B90fafc1244FC343B828a739390c3BBC9852A20",
+            463: "0x7B90fafc1244FC343B828a739390c3BBC9852A20",
+            137: "0x7B90fafc1244FC343B828a739390c3BBC9852A20"
         };
     },
     currencies: function () {
@@ -62,9 +62,9 @@ const Utils = {
     },
     beamreIds: function () {
         return {
-            463: '0x14cB760D6c62bf96D60E4C09FeB8f6DccBA5D762',
-            56: '0xe668a3983Aba80D2aAF3787a17BBEEE62F71DE43',
-            137: '0x5Ad213b02Ee414C2EaBe004A61774207faC5113c',
+            463: '0x4E647882CE600488249f32B8A0B552f59655c5D3',
+            56: '0x4E647882CE600488249f32B8A0B552f59655c5D3',
+            137: '0x4E647882CE600488249f32B8A0B552f59655c5D3',
         };
     },
     toDate: function (timestamp) {
